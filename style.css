@@ -48,8 +48,8 @@ header{
 }
 
 img{
-    width: 700px;
-    height: 500px;
+    width: 600px;
+    height: 400px;
     margin-top: 70px;
     border-radius: 100px;
 }
@@ -120,4 +120,20 @@ section a img{
 footer{
     color: aliceblue;
     text-align: center;
+}
+
+@media (max-width:650px) {
+    
+    img{
+        width: 400px;
+        height: 400px;
+        margin-top: 70px;
+        border-radius: 100px;
+    }
+    
+    iframe{
+        margin: 0 auto;
+        width: 350px;
+     }
+
 }
